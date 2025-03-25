@@ -1,0 +1,148 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  display: flex;
+  letter-spacing: 1px;
+}
+
+.container {
+  width: 50%;
+  height: 100%;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 50%;
+  height: 100%;
+  background-image: url('./img/img1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: 44px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+p {
+  color: #636364;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.formOptions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.divRemember {
+  display: flex;
+  align-items: center;
+}
+
+.remember {
+  margin: 0;
+  margin-left: 5px;
+  font-size: 14px;
+}
+
+.inputText {
+  border: 1px solid #c4c4c4;
+  color: #c4c4c4;
+  border-radius: 10px;
+  padding: 15px 10px;
+  font-size: 16px;
+  margin-bottom: 1.5rem;
+}
+
+input[type='checkbox'] {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.linkSignUp {
+  color: #ea454c;
+}
+
+.btn {
+  border-radius: 10px;
+
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.btn-sign {
+  border: 1px solid #ea454c;
+  background-color: #ea454c;
+  color: #fff;
+  margin-bottom: 1rem;
+  padding: 15px 0px;
+}
+
+.btn-google {
+  border: 1px solid #636364;
+  background-color: #f8f8f8;
+  color: #000;
+  margin-bottom: 1rem;
+  padding: 5px 0px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.btn-sign:hover {
+  background-color: #fff;
+  color: #ea454c;
+}
+
+.btn-google:hover {
+  background-color: #636364;
+  color: #fff;
+}
+
+.linkSignUp:hover,
+.forgotPass:hover {
+  text-decoration: underline;
+}
